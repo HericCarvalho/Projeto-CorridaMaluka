@@ -1,0 +1,36 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl _000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 1.000000
+illum 2
+map_Kd  building_01.png
+
+newmtl _001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 1.000000
+illum 2
+map_Kd  building_02.png
+
+newmtl _002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 0.000000
+illum 2
+map_Kd  building_03.png
+map_d  building_03.png

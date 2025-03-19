@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.77.0 commit date:2016-04-05, commit time:18:12, hash:abf6f08</authoring_tool>
+    </contributor>
+    <created>2022-09-27T10:15:31</created>
+    <modified>2022-09-27T10:15:31</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="building_01_png" name="building_01_png">
+      <init_from>building_01.png</init_from>
+    </image>
+    <image id="building_02_png" name="building_02_png">
+      <init_from>building_02.png</init_from>
+    </image>
+    <image id="building_03_png" name="building_03_png">
+      <init_from>building_03.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-effect">
+      <profile_COMMON>
+        <newparam sid="building_01_png-surface">
+          <surface type="2D">
+            <init_from>building_01_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="building_01_png-sampler">
+          <sampler2D>
+            <source>building_01_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="building_01_png-sampler" texcoord="GeometrySource2"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-effect">
+      <profile_COMMON>
+        <newparam sid="building_02_png-surface">
+          <surface type="2D">
+            <init_from>building_02_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="building_02_png-sampler">
+          <sampler2D>
+            <source>building_02_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="building_02_png-sampler" texcoord="GeometrySource18"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-effect">
+      <profile_COMMON>
+        <newparam sid="building_03_png-surface">
+          <surface type="2D">
+            <init_from>building_03_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="building_03_png-sampler">
+          <sampler2D>
+            <source>building_03_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="building_03_png-sampler" texcoord="GeometrySource34"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1</float>
+            </shininess>
+            <transparent>
+              <texture texture="building_03_png-sampler" texcoord="GeometrySource34"/>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" name="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_">
+      <instance_effect url="#_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-effect"/>
+    </material>
+    <material id="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" name="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_">
+      <instance_effect url="#_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-effect"/>
+    </material>
+    <material id="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material" name="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_">
+      <instance_effect url="#_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="_000_building_1-mesh" name="_000_building_1">
+      <mesh>
+        <source id="_000_building_1-mesh-positions">
+          <float_array id="_000_building_1-mesh-positions-array" count="120">-276.942 -888.817 -214.186 -276.942 -800.916 214.151 -276.942 -629.9091 -214.186 -276.942 -571.494 214.151 -276.942 -888.817 -214.186 -276.942 -629.9091 -214.186 -32.978 -865.0241 -214.186 -49.1597 -622.9171 -214.186 -276.942 -800.916 214.151 69.8054 -803.36 214.151 -276.942 -571.494 214.151 60.9256 -554.663 214.151 -111.783 -832.2581 214.151 -203.335 -912.1151 214.151 -276.942 -922.2631 79.6227 -276.942 -1013.78 214.151 -160.761 -893.9841 214.151 -276.942 -957.999 121.856 -276.942 -1013.78 214.151 -249.529 -994.57 214.151 -276.942 -263.67 214.151 50.2822 -256.492 214.151 -276.942 -308.966 -214.186 -276.942 -263.67 214.151 -69.0543 -325.427 -214.186 -276.942 -308.966 -214.186 -276.942 249.628 214.151 -92.9711 250.123 214.151 -276.942 608.009 214.151 -276.942 280.785 -7.96906 -276.942 249.628 214.151 -276.942 608.009 214.151 -85.9786 -72.0881 -214.186 -276.942 -68.8703 -214.186 -276.942 142.42 -214.186 -276.942 -68.8703 -214.186 -276.942 -17.9427 214.151 -276.942 -17.9427 214.151 41.526 -11.569 214.151 -276.942 142.42 -214.186</float_array>
+          <technique_common>
+            <accessor source="#_000_building_1-mesh-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_000_building_1-mesh-normals">
+          <float_array id="_000_building_1-mesh-normals-array" count="45">-1 0 0 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 -1 -1.94572e-7 0 -1 1.96642e-7 0 0 0 1 -2.34187e-7 0 -1 1.70394e-7 0 -1 1.93624e-7 0 -1 1.24612e-7 0 1 0 0 1 -1 1.69218e-7 0</float_array>
+          <technique_common>
+            <accessor source="#_000_building_1-mesh-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_000_building_1-mesh-map-0">
+          <float_array id="_000_building_1-mesh-map-0-array" count="204">0.980036 -0.909681 0.575517 -0.869164 0.980036 -0.790354 0.980036 -0.790354 0.575517 -0.869164 0.575517 -0.763416 0.018323 -0.909549 0.018323 -0.790267 0.248709 -0.89859 0.248709 -0.89859 0.018323 -0.790267 0.2334319 -0.787033 0.018323 -0.869047 0.345747 -0.870174 0.018323 -0.763328 0.018323 -0.763328 0.345747 -0.870174 0.337363 -0.755588 0.018323 -0.869047 0.17429 -0.883489 0.345747 -0.870174 0.08781498 -0.920275 0.17429 -0.883489 0.018323 -0.869047 0.980036 -0.909681 0.702565 -0.925089 0.575517 -0.869164 0.018323 -0.967127 0.08781498 -0.920275 0.018323 -0.869047 0.128033 -0.911934 0.17429 -0.883489 0.08781498 -0.920275 0.575517 -0.869164 0.702565 -0.925089 0.662679 -0.941565 0.575517 -0.869164 0.662679 -0.941565 0.575517 -0.967274 0.04423397 -0.95826 0.08781498 -0.920275 0.018323 -0.967127 0.018323 -0.763328 0.337363 -0.755588 0.018323 -0.621512 0.018323 -0.621512 0.337363 -0.755588 0.327296 -0.618205 0.980036 -0.790354 0.575517 -0.763416 0.980036 -0.642436 0.980036 -0.642436 0.575517 -0.763416 0.575517 -0.621556 0.2334319 -0.787033 0.018323 -0.790267 0.21465 -0.649972 0.21465 -0.649972 0.018323 -0.790267 0.018323 -0.642392 0.018323 -0.38501 0.19203 -0.384791 0.018323 -0.2198989 0.785297 -0.370612 0.575517 -0.384981 0.575517 -0.219797 0.21465 -0.649972 0.018323 -0.642392 0.198638 -0.533235 0.198638 -0.533235 0.018323 -0.642392 0.018323 -0.531772 0.198638 -0.533235 0.018323 -0.531772 0.018323 -0.434409 0.980036 -0.642436 0.575517 -0.621556 0.980036 -0.531772 0.575517 -0.508302 0.575517 -0.384981 0.785297 -0.370612 0.980036 -0.531772 0.575517 -0.621556 0.575517 -0.508302 0.018323 -0.508287 0.19203 -0.384791 0.018323 -0.38501 0.018323 -0.621512 0.327296 -0.618205 0.018323 -0.508287 0.018323 -0.508287 0.327296 -0.618205 0.319054 -0.505361 0.319054 -0.505361 0.19203 -0.384791 0.018323 -0.508287 0.980036 -0.434394 0.575517 -0.508302 0.785297 -0.370612 0.980036 -0.531772 0.575517 -0.508302 0.980036 -0.434394</float_array>
+          <technique_common>
+            <accessor source="#_000_building_1-mesh-map-0-array" count="102" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_000_building_1-mesh-colors-GeometrySource3" name="GeometrySource3">
+          <float_array id="_000_building_1-mesh-colors-GeometrySource3-array" count="306">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_000_building_1-mesh-colors-GeometrySource3-array" count="102" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_000_building_1-mesh-vertices">
+          <input semantic="POSITION" source="#_000_building_1-mesh-positions"/>
+        </vertices>
+        <polylist material="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" count="34">
+          <input semantic="VERTEX" source="#_000_building_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_000_building_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_000_building_1-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_000_building_1-mesh-colors-GeometrySource3" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 2 0 3 3 1 0 4 4 3 0 5 5 4 1 6 6 5 1 7 7 6 1 8 8 6 2 9 9 5 2 10 10 7 2 11 11 8 3 12 12 9 3 13 13 10 3 14 14 10 3 15 15 9 3 16 16 11 3 17 17 8 4 18 18 12 4 19 19 9 4 20 20 13 5 21 21 12 5 22 22 8 5 23 23 0 6 24 24 14 6 25 25 1 6 26 26 15 3 27 27 13 3 28 28 8 3 29 29 16 3 30 30 12 3 31 31 13 3 32 32 1 7 33 33 14 7 34 34 17 7 35 35 1 0 36 36 17 0 37 37 18 0 38 38 19 3 39 39 13 3 40 40 15 3 41 41 10 8 42 42 11 8 43 43 20 8 44 44 20 3 45 45 11 3 46 46 21 3 47 47 2 0 48 48 3 0 49 49 22 0 50 50 22 0 51 51 3 0 52 52 23 0 53 53 7 1 54 54 5 1 55 55 24 1 56 56 24 9 57 57 5 9 58 58 25 9 59 59 26 3 60 60 27 3 61 61 28 3 62 62 29 0 63 63 30 0 64 64 31 0 65 65 24 1 66 66 25 1 67 67 32 1 68 68 32 10 69 69 25 10 70 70 33 10 71 71 32 11 72 72 33 11 73 73 34 11 74 74 22 0 75 75 23 0 76 76 35 0 77 77 36 0 78 78 30 0 79 79 29 0 80 80 35 0 81 81 23 0 82 82 36 0 83 83 37 12 84 84 27 12 85 85 26 12 86 86 20 3 87 87 21 3 88 88 37 3 89 89 37 13 90 90 21 13 91 91 38 13 92 92 38 3 93 93 27 3 94 94 37 3 95 95 39 14 96 96 36 14 97 97 29 14 98 98 35 0 99 99 36 0 100 100 39 0 101 101</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_001_building_2-mesh" name="_001_building_2">
+      <mesh>
+        <source id="_001_building_2-mesh-positions">
+          <float_array id="_001_building_2-mesh-positions-array" count="96">276.919 1013.88 -214.186 276.919 1013.88 -14.8378 276.919 645.013 -214.186 276.919 617.384 105.334 61.1112 662.0921 -214.186 131.562 1013.88 -214.186 276.919 645.013 -214.186 276.919 1013.88 -214.186 276.919 -91.4257 214.151 276.919 258.322 214.151 41.526 -11.569 214.151 276.919 -803.546 214.151 276.919 -434.181 214.151 69.8054 -803.36 214.151 56.563 -432.108 214.151 276.919 -803.546 -214.186 276.919 -457.387 -214.186 276.919 -803.546 214.151 276.919 -434.181 214.151 -32.978 -865.0241 -214.186 -62.5878 -421.929 -214.186 106.903 -816.1691 -214.186 276.919 -457.387 -214.186 276.919 -803.546 -214.186 276.919 -106.927 -214.186 276.919 -91.4257 214.151 276.919 -106.927 -214.186 -85.9786 -72.0881 -214.186 276.919 266.336 -214.186 276.919 258.322 214.151 276.919 266.336 -214.186 -5.99813 327.164 -214.186</float_array>
+          <technique_common>
+            <accessor source="#_001_building_2-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_001_building_2-mesh-normals">
+          <float_array id="_001_building_2-mesh-normals-array" count="24">1 0 0 0 0 -1 0 0 1 -2.04247e-7 0 1 0 0 1 0 0 1 -1.23869e-7 0 -1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#_001_building_2-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_001_building_2-mesh-map-0">
+          <float_array id="_001_building_2-mesh-map-0-array" count="156">0.980036 -0.03273695 0.791763 -0.03273695 0.980036 -0.20275 0.980036 -0.20275 0.791763 -0.03273695 0.678287 -0.21548 0.337528 -0.19498 0.40406 -0.03289794 0.541316 -0.202838 0.541316 -0.202838 0.40406 -0.03289794 0.541316 -0.03289794 0.541316 -0.542146 0.541316 -0.381001 0.319054 -0.505361 0.541316 -0.870261 0.541316 -0.700073 0.345747 -0.870174 0.541316 -0.700073 0.541316 -0.542146 0.333241 -0.699122 0.333241 -0.699122 0.541316 -0.542146 0.319054 -0.505361 0.345747 -0.870174 0.541316 -0.700073 0.333241 -0.699122 0.980036 -0.870378 0.980036 -0.710842 0.575517 -0.870378 0.575517 -0.870378 0.980036 -0.710842 0.575517 -0.700132 0.248709 -0.89859 0.220737 -0.69444 0.380778 -0.875236 0.220737 -0.69444 0.541316 -0.710769 0.380778 -0.875236 0.541316 -0.870261 0.380778 -0.875236 0.541316 -0.710769 0.980036 -0.710842 0.980036 -0.549316 0.575517 -0.700132 0.575517 -0.700132 0.980036 -0.549316 0.575517 -0.542161 0.541316 -0.710769 0.220737 -0.69444 0.541316 -0.549302 0.541316 -0.549302 0.220737 -0.69444 0.198638 -0.533235 0.980036 -0.20275 0.678287 -0.21548 0.980036 -0.377284 0.980036 -0.549316 0.980036 -0.377284 0.575517 -0.542161 0.575517 -0.542161 0.980036 -0.377284 0.575517 -0.380972 0.980036 -0.377284 0.678287 -0.21548 0.575517 -0.380972 0.541316 -0.549302 0.198638 -0.533235 0.541316 -0.377328 0.541316 -0.202838 0.274171 -0.349293 0.337528 -0.19498 0.541316 -0.377328 0.274171 -0.349293 0.541316 -0.202838 0.541316 -0.377328 0.198638 -0.533235 0.274171 -0.349293</float_array>
+          <technique_common>
+            <accessor source="#_001_building_2-mesh-map-0-array" count="78" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_001_building_2-mesh-colors-GeometrySource7" name="GeometrySource7">
+          <float_array id="_001_building_2-mesh-colors-GeometrySource7-array" count="234">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_001_building_2-mesh-colors-GeometrySource7-array" count="78" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_001_building_2-mesh-vertices">
+          <input semantic="POSITION" source="#_001_building_2-mesh-positions"/>
+        </vertices>
+        <polylist material="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" count="26">
+          <input semantic="VERTEX" source="#_001_building_2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_001_building_2-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_001_building_2-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_001_building_2-mesh-colors-GeometrySource7" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 2 0 3 3 1 0 4 4 3 0 5 5 4 1 6 6 5 1 7 7 6 1 8 8 6 1 9 9 5 1 10 10 7 1 11 11 8 2 12 12 9 2 13 13 10 2 14 14 11 3 15 15 12 3 16 16 13 3 17 17 12 2 18 18 8 2 19 19 14 2 20 20 14 4 21 21 8 4 22 22 10 4 23 23 13 5 24 24 12 5 25 25 14 5 26 26 15 0 27 27 16 0 28 28 17 0 29 29 17 0 30 30 16 0 31 31 18 0 32 32 19 1 33 33 20 1 34 34 21 1 35 35 20 1 36 36 22 1 37 37 21 1 38 38 23 1 39 39 21 1 40 40 22 1 41 41 16 0 42 42 24 0 43 43 18 0 44 44 18 0 45 45 24 0 46 46 25 0 47 47 22 1 48 48 20 1 49 49 26 1 50 50 26 6 51 51 20 6 52 52 27 6 53 53 2 0 54 54 3 0 55 55 28 0 56 56 24 0 57 57 28 0 58 58 25 0 59 59 25 0 60 60 28 0 61 61 29 0 62 62 28 7 63 63 3 7 64 64 29 7 65 65 26 1 66 66 27 1 67 67 30 1 68 68 6 1 69 69 31 1 70 70 4 1 71 71 30 1 72 72 31 1 73 73 6 1 74 74 30 1 75 75 27 1 76 76 31 1 77 77</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_002_building_3-mesh" name="_002_building_3">
+      <mesh>
+        <source id="_002_building_3-mesh-positions">
+          <float_array id="_002_building_3-mesh-positions-array" count="33">276.919 1013.88 -14.8378 276.919 1013.88 214.151 276.919 635.174 99.9504 276.919 636.35 214.151 -276.942 608.009 214.151 276.919 636.35 214.151 25.3752 1013.88 214.151 276.919 1013.88 214.151 276.919 258.322 214.151 41.526 -11.569 214.151 276.919 258.322 214.151</float_array>
+          <technique_common>
+            <accessor source="#_002_building_3-mesh-positions-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_002_building_3-mesh-normals">
+          <float_array id="_002_building_3-mesh-normals-array" count="6">1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_002_building_3-mesh-normals-array" count="2" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_002_building_3-mesh-map-0">
+          <float_array id="_002_building_3-mesh-map-0-array" count="42">0.791763 -0.03273695 0.575517 -0.03273695 0.68338 -0.207271 0.68338 -0.207271 0.575517 -0.03273695 0.575517 -0.206745 0.018323 -0.2198989 0.541316 -0.206832 0.303777 -0.03289794 0.303777 -0.03289794 0.541316 -0.206832 0.541316 -0.03289794 0.541316 -0.206832 0.018323 -0.2198989 0.541316 -0.381001 0.541316 -0.381001 0.018323 -0.2198989 0.319054 -0.505361 0.575517 -0.380972 0.68338 -0.207271 0.575517 -0.206745</float_array>
+          <technique_common>
+            <accessor source="#_002_building_3-mesh-map-0-array" count="21" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_002_building_3-mesh-colors-GeometrySource11" name="GeometrySource11">
+          <float_array id="_002_building_3-mesh-colors-GeometrySource11-array" count="63">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_002_building_3-mesh-colors-GeometrySource11-array" count="21" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_002_building_3-mesh-vertices">
+          <input semantic="POSITION" source="#_002_building_3-mesh-positions"/>
+        </vertices>
+        <polylist material="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" count="7">
+          <input semantic="VERTEX" source="#_002_building_3-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_002_building_3-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_002_building_3-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_002_building_3-mesh-colors-GeometrySource11" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 2 0 3 3 1 0 4 4 3 0 5 5 4 1 6 6 5 1 7 7 6 1 8 8 6 1 9 9 5 1 10 10 7 1 11 11 5 1 12 12 4 1 13 13 8 1 14 14 8 1 15 15 4 1 16 16 9 1 17 17 10 0 18 18 2 0 19 19 3 0 20 20</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_003_building_4-mesh" name="_003_building_4">
+      <mesh>
+        <source id="_003_building_4-mesh-positions">
+          <float_array id="_003_building_4-mesh-positions-array" count="45">-276.942 608.009 214.151 -276.942 570.85 -214.186 -276.942 280.785 -7.96906 -276.942 142.42 -214.186 -276.942 1013.88 214.151 -276.942 608.009 214.151 25.3752 1013.88 214.151 -276.942 570.85 -214.186 36.6994 540.3421 -214.186 -276.942 142.42 -214.186 -85.9786 -72.0881 -214.186 -276.942 1013.88 214.151 -276.942 1013.88 -214.186 -276.942 1013.88 -214.186 131.562 1013.88 -214.186</float_array>
+          <technique_common>
+            <accessor source="#_003_building_4-mesh-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_003_building_4-mesh-normals">
+          <float_array id="_003_building_4-mesh-normals-array" count="15">-1 0 0 -1 0 0 0 0 1 0 0 -1 2.18124e-7 0 -1</float_array>
+          <technique_common>
+            <accessor source="#_003_building_4-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_003_building_4-mesh-map-0">
+          <float_array id="_003_building_4-mesh-map-0-array" count="54">0.575517 -0.219797 0.980036 -0.236931 0.785297 -0.370612 0.785297 -0.370612 0.980036 -0.236931 0.980036 -0.434394 0.018323 -0.03289794 0.018323 -0.2198989 0.303777 -0.03289794 0.018323 -0.237019 0.314483 -0.25108 0.018323 -0.434409 0.018323 -0.434409 0.314483 -0.25108 0.198638 -0.533235 0.575517 -0.03273695 0.980036 -0.03273695 0.575517 -0.219797 0.980036 -0.236931 0.575517 -0.219797 0.980036 -0.03273695 0.018323 -0.237019 0.018323 -0.03289794 0.314483 -0.25108 0.314483 -0.25108 0.018323 -0.03289794 0.40406 -0.03289794</float_array>
+          <technique_common>
+            <accessor source="#_003_building_4-mesh-map-0-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_003_building_4-mesh-colors-GeometrySource15" name="GeometrySource15">
+          <float_array id="_003_building_4-mesh-colors-GeometrySource15-array" count="81">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_003_building_4-mesh-colors-GeometrySource15-array" count="27" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_003_building_4-mesh-vertices">
+          <input semantic="POSITION" source="#_003_building_4-mesh-positions"/>
+        </vertices>
+        <polylist material="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" count="9">
+          <input semantic="VERTEX" source="#_003_building_4-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_003_building_4-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_003_building_4-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_003_building_4-mesh-colors-GeometrySource15" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 2 1 3 3 1 1 4 4 3 1 5 5 4 2 6 6 5 2 7 7 6 2 8 8 7 3 9 9 8 3 10 10 9 3 11 11 9 4 12 12 8 4 13 13 10 4 14 14 11 1 15 15 12 1 16 16 0 1 17 17 1 1 18 18 0 1 19 19 12 1 20 20 7 3 21 21 13 3 22 22 8 3 23 23 8 3 24 24 13 3 25 25 14 3 26 26</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_004_building_1-mesh" name="_004_building_1">
+      <mesh>
+        <source id="_004_building_1-mesh-positions">
+          <float_array id="_004_building_1-mesh-positions-array" count="132">-160.761 -893.9841 214.151 -222.146 -864.5911 152.301 -111.783 -832.2581 214.151 -203.335 -912.1151 214.151 -222.146 -864.5911 152.301 -160.761 -893.9841 214.151 -276.942 -957.999 121.856 -222.146 -864.5911 152.301 -276.942 -1013.78 214.151 -249.529 -994.57 214.151 -222.146 -864.5911 152.301 -203.335 -912.1151 214.151 -276.942 -922.2631 79.6227 -222.146 -864.5911 152.301 -276.942 -957.999 121.856 -276.942 -888.817 -214.186 -222.146 -864.5911 152.301 -276.942 -922.2631 79.6227 -276.942 -1013.78 214.151 -222.146 -864.5911 152.301 -249.529 -994.57 214.151 -32.978 -865.0241 -214.186 69.8054 -803.36 214.151 -276.942 -888.817 -214.186 -276.942 280.785 -7.96906 -276.942 608.009 214.151 -92.9711 250.123 214.151 -276.942 280.785 -7.96906 -85.9786 -72.0881 -214.186 -276.942 142.42 -214.186 -32.978 -865.0241 -214.186 -49.1597 -622.9171 -214.186 69.8054 -803.36 214.151 60.9256 -554.663 214.151 41.526 -11.569 214.151 -85.9786 -72.0881 -214.186 -276.942 280.785 -7.96906 -69.0543 -325.427 -214.186 50.2822 -256.492 214.151 -85.9786 -72.0881 -214.186 41.526 -11.569 214.151 41.526 -11.569 214.151 -111.783 -832.2581 214.151 -222.146 -864.5911 152.301</float_array>
+          <technique_common>
+            <accessor source="#_004_building_1-mesh-positions-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_004_building_1-mesh-normals">
+          <float_array id="_004_building_1-mesh-normals-array" count="72">0.5341179 -0.4238086 -0.7315082 0.3020743 -0.7093122 -0.6368889 0.8677883 -0.4252939 -0.257038 0.7345184 -0.4115016 -0.5395825 0.8566077 -0.3938828 -0.3332861 0.767102 -0.6374086 -0.07256007 0.3232471 -0.4612794 -0.8262764 0.09634745 -0.9881949 0.1191144 0.1366935 -0.9868545 0.08621549 0.137368 -0.9861136 0.09332841 0.7376643 0.3791955 -0.5586253 0.6821025 0.6072341 -0.4074348 0.9682121 0.06470006 -0.2416181 0.9661018 0.05941998 -0.2512304 0.9672183 0.04382574 -0.2501363 0.9643616 0.04040676 -0.2614845 0.7508181 0.5852529 -0.3061882 0.9611139 0.05823081 -0.2699432 0.9591602 0.03940039 -0.280106 0.9580853 0.05475121 -0.2812027 0.9565489 0.03418093 -0.2895618 0.7376803 0.3791322 -0.5586473 0.1863791 -0.9807869 0.05761969 0.2689334 -0.9628744 0.02340805</float_array>
+          <technique_common>
+            <accessor source="#_004_building_1-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_004_building_1-mesh-map-0">
+          <float_array id="_004_building_1-mesh-map-0-array" count="120">0.506499 -0.472497 0.441246 -0.40671 0.558582 -0.472497 0.461236 -0.472497 0.441246 -0.40671 0.506499 -0.472497 0.382957 -0.374358 0.441246 -0.40671 0.382957 -0.472497 0.412137 -0.472497 0.441246 -0.40671 0.461236 -0.472497 0.382957 -0.329437 0.441246 -0.40671 0.382957 -0.374358 0.382957 -0.01702195 0.441246 -0.40671 0.382957 -0.329437 0.382957 -0.472497 0.441246 -0.40671 0.412137 -0.472497 0.642381 -0.01702195 0.751688 -0.472497 0.382957 -0.01702195 0.17448 -0.446597 0.08549398 -0.315507 0.08549398 -0.458889 0.17448 -0.446597 0.257117 -0.58796 0.257117 -0.502039 0.257117 -0.905642 0.257117 -0.808645 0.08549398 -0.880928 0.08549398 -0.880928 0.257117 -0.808645 0.08549398 -0.781312 0.08549398 -0.563729 0.257117 -0.58796 0.17448 -0.446597 0.257117 -0.808645 0.257117 -0.689465 0.08549398 -0.781312 0.08549398 -0.781312 0.257117 -0.689465 0.08549398 -0.661839 0.257117 -0.689465 0.257117 -0.58796 0.08549398 -0.661839 0.08549398 -0.661839 0.257117 -0.58796 0.08549398 -0.563729 0.17448 -0.446597 0.08549398 -0.458889 0.08549398 -0.563729 0.382957 -0.01702195 0.751688 -0.472497 0.558582 -0.472497 0.382957 -0.01702195 0.558582 -0.472497 0.441246 -0.40671</float_array>
+          <technique_common>
+            <accessor source="#_004_building_1-mesh-map-0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_004_building_1-mesh-colors-GeometrySource19" name="GeometrySource19">
+          <float_array id="_004_building_1-mesh-colors-GeometrySource19-array" count="180">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_004_building_1-mesh-colors-GeometrySource19-array" count="60" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_004_building_1-mesh-vertices">
+          <input semantic="POSITION" source="#_004_building_1-mesh-positions"/>
+        </vertices>
+        <polylist material="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" count="20">
+          <input semantic="VERTEX" source="#_004_building_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_004_building_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_004_building_1-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_004_building_1-mesh-colors-GeometrySource19" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 3 1 3 3 4 1 4 4 5 1 5 5 6 2 6 6 7 2 7 7 8 2 8 8 9 3 9 9 10 3 10 10 11 3 11 11 12 4 12 12 13 4 13 13 14 4 14 14 15 5 15 15 16 5 16 16 17 5 17 17 18 6 18 18 19 6 19 19 20 6 20 20 21 7 21 21 22 8 22 22 23 9 23 23 24 10 24 24 25 10 25 25 26 10 26 26 27 11 27 27 28 11 28 28 29 11 29 29 30 12 30 30 31 13 31 31 32 14 32 32 32 14 33 33 31 13 34 34 33 15 35 35 34 16 36 36 35 16 37 37 36 16 38 38 31 13 39 39 37 17 40 40 33 15 41 41 33 15 42 42 37 17 43 43 38 18 44 44 37 17 45 45 39 19 46 46 38 18 47 47 38 18 48 48 39 19 49 49 40 20 50 50 24 21 51 51 26 21 52 52 41 21 53 53 23 9 54 54 22 8 55 55 42 22 56 56 23 9 57 57 42 22 58 58 43 23 59 59</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_005_building_2-mesh" name="_005_building_2">
+      <mesh>
+        <source id="_005_building_2-mesh-positions">
+          <float_array id="_005_building_2-mesh-positions-array" count="132">69.8054 -803.36 214.151 276.919 -803.546 -214.186 276.919 -803.546 214.151 276.919 -803.546 -214.186 69.8054 -803.36 214.151 106.903 -816.1691 -214.186 98.6726 1013.88 57.1911 276.919 1013.88 -14.8378 131.562 1013.88 -214.186 -62.5878 -421.929 -214.186 56.563 -432.108 214.151 -85.9786 -72.0881 -214.186 41.526 -11.569 214.151 98.6726 1013.88 57.1911 36.5756 648.6021 -34.0826 79.2731 665.619 110.501 61.1112 662.0921 -214.186 36.5756 648.6021 -34.0826 131.562 1013.88 -214.186 98.6726 1013.88 57.1911 276.919 1013.88 -14.8378 193.04 648.54 66.7516 276.919 617.384 105.334 79.2731 665.619 110.501 193.04 648.54 66.7516 98.6726 1013.88 57.1911 276.919 1013.88 -14.8378 -32.978 -865.0241 -214.186 276.919 1013.88 -214.186 69.8054 -803.36 214.151 -32.978 -865.0241 -214.186 -17.3841 331.31 -113.382 -5.99813 327.164 -214.186 -85.9786 -72.0881 -214.186 59.9355 318.439 163.656 -17.3841 331.31 -113.382 41.526 -11.569 214.151 -85.9786 -72.0881 -214.186 59.9355 318.439 163.656 110.739 289.912 146.825 41.526 -11.569 214.151 110.739 289.912 146.825 276.919 258.322 214.151 41.526 -11.569 214.151</float_array>
+          <technique_common>
+            <accessor source="#_005_building_2-mesh-positions-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_005_building_2-mesh-normals">
+          <float_array id="_005_building_2-mesh-normals-array" count="96">-8.98227e-4 -0.9999996 0 0.07397842 -0.9966028 0.03619569 0.1984979 -0.979 0.04645043 0.1969677 -0.9793149 0.04632735 0 1 6.79303e-7 -0.9639552 -0.05789524 0.2596895 -0.9610936 -0.04052877 0.2732335 -0.9594708 -0.04986876 0.2773609 -0.9565489 -0.03418093 0.2895618 -0.9577028 0.09493046 0.2716497 -0.9736758 0.1949932 -0.1180393 -0.9736766 0.1950106 -0.1180043 -0.315486 0.2752419 0.9081357 0.3719925 0.1201721 0.920424 0.3719487 0.1201612 0.9204431 0.3291832 -0.9425638 0.05667465 0 1 0 -0.9658159 -0.04944133 0.2544705 -0.9682121 -0.06470006 0.2416181 -0.973659 0.1950823 -0.1180301 -0.9736608 0.1950917 -0.1180003 -0.973669 0.195051 -0.1179997 -0.9577026 0.09493398 0.2716492 -0.9576864 0.09496331 0.2716963 -0.9576828 0.09499704 0.2716968 -0.9576957 0.09496295 0.2716635 0.3723043 0.1200457 0.9203144 0.371995 0.1202009 0.9204192 0.3723058 0.1200494 0.9203134 -0.3155153 0.2751751 0.9081458 -0.3155937 0.2752103 0.9081079 -0.3155844 0.2752456 0.9081005</float_array>
+          <technique_common>
+            <accessor source="#_005_building_2-mesh-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_005_building_2-mesh-map-0">
+          <float_array id="_005_building_2-mesh-map-0-array" count="168">0.751688 -0.472497 0.971913 -0.01702195 0.971913 -0.472497 0.971913 -0.01702195 0.751688 -0.472497 0.7911 -0.01702195 0.791858 -0.80604 0.984774 -0.728094 0.827457 -0.512311 0.267681 -0.740122 0.113585 -0.745053 0.267681 -0.570884 0.267681 -0.570884 0.113585 -0.745053 0.113585 -0.541605 0.181443 -0.04553997 0.210434 -0.222255 0.158397 -0.214017 0.267681 -0.2157289 0.210434 -0.222255 0.267681 -0.04553997 0.267681 -0.04553997 0.210434 -0.222255 0.181443 -0.04553997 0.116593 -0.04553997 0.115527 -0.222284 0.06339597 -0.237341 0.158397 -0.214017 0.115527 -0.222284 0.181443 -0.04553997 0.181443 -0.04553997 0.115527 -0.222284 0.116593 -0.04553997 0.7911 -0.01702195 0.751688 -0.472497 0.642381 -0.01702195 0.827457 -0.512311 0.984774 -0.728094 0.984774 -0.512311 0.113585 -0.745053 0.267681 -0.740122 0.113585 -0.924635 0.113585 -0.924635 0.267681 -0.740122 0.267681 -0.95447 0.210434 -0.222255 0.267681 -0.2157289 0.235635 -0.375733 0.235635 -0.375733 0.267681 -0.2157289 0.267681 -0.377752 0.235635 -0.375733 0.267681 -0.377752 0.267681 -0.570884 0.158397 -0.214017 0.210434 -0.222255 0.135423 -0.381952 0.135423 -0.381952 0.210434 -0.222255 0.235635 -0.375733 0.135423 -0.381952 0.235635 -0.375733 0.113585 -0.541605 0.113585 -0.541605 0.235635 -0.375733 0.267681 -0.570884 0.115527 -0.222284 0.135423 -0.381952 0.114461 -0.395765 0.158397 -0.214017 0.135423 -0.381952 0.115527 -0.222284 0.114461 -0.395765 0.135423 -0.381952 0.113585 -0.541605 0.115527 -0.222284 0.114461 -0.395765 0.06339597 -0.237341 0.06339597 -0.237341 0.114461 -0.395765 0.01521998 -0.411041 0.01521998 -0.411041 0.114461 -0.395765 0.113585 -0.541605</float_array>
+          <technique_common>
+            <accessor source="#_005_building_2-mesh-map-0-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_005_building_2-mesh-colors-GeometrySource23" name="GeometrySource23">
+          <float_array id="_005_building_2-mesh-colors-GeometrySource23-array" count="252">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_005_building_2-mesh-colors-GeometrySource23-array" count="84" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_005_building_2-mesh-vertices">
+          <input semantic="POSITION" source="#_005_building_2-mesh-positions"/>
+        </vertices>
+        <polylist material="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" count="28">
+          <input semantic="VERTEX" source="#_005_building_2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_005_building_2-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_005_building_2-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_005_building_2-mesh-colors-GeometrySource23" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 3 1 3 3 4 2 4 4 5 3 5 5 6 4 6 6 7 4 7 7 8 4 8 8 9 5 9 9 10 6 10 10 11 7 11 11 11 7 12 12 10 6 13 13 12 8 14 14 13 9 15 15 14 9 16 16 15 9 17 17 16 10 18 18 17 10 19 19 18 10 20 20 18 11 21 21 17 11 22 22 19 11 23 23 20 12 24 24 21 12 25 25 22 12 26 26 23 13 27 27 24 13 28 28 25 13 29 29 25 14 30 30 24 14 31 31 26 14 32 32 5 3 33 33 4 2 34 34 27 15 35 35 8 16 36 36 7 16 37 37 28 16 38 38 10 6 39 39 9 5 40 40 29 17 41 41 29 17 42 42 9 5 43 43 30 18 44 44 17 19 45 45 16 19 46 46 31 19 47 47 31 20 48 48 16 20 49 49 32 20 50 50 31 21 51 51 32 21 52 52 33 21 53 53 15 22 54 54 14 22 55 55 34 22 56 56 34 23 57 57 14 23 58 58 35 23 59 59 34 24 60 60 35 24 61 61 36 24 62 62 36 25 63 63 35 25 64 64 37 25 65 65 24 26 66 66 38 26 67 67 39 26 68 68 23 27 69 69 38 27 70 70 24 27 71 71 39 28 72 72 38 28 73 73 40 28 74 74 21 29 75 75 41 29 76 76 22 29 77 77 22 30 78 78 41 30 79 79 42 30 80 80 42 31 81 81 41 31 82 82 43 31 83 83</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_006_building_3-mesh" name="_006_building_3">
+      <mesh>
+        <source id="_006_building_3-mesh-positions">
+          <float_array id="_006_building_3-mesh-positions-array" count="63">276.919 1013.88 214.151 98.6726 1013.88 57.1911 25.3752 1013.88 214.151 -276.942 608.009 214.151 25.3752 1013.88 214.151 98.6726 1013.88 57.1911 276.919 1013.88 -14.8378 276.919 635.174 99.9504 188.368 628.0891 71.3307 77.262 629.358 116.039 98.6726 1013.88 57.1911 188.368 628.0891 71.3307 276.919 1013.88 -14.8378 -276.942 608.009 214.151 98.6726 1013.88 57.1911 77.262 629.358 116.039 276.919 1013.88 -14.8378 276.919 258.322 214.151 41.526 -11.569 214.151 41.526 -11.569 214.151 41.526 -11.569 214.151</float_array>
+          <technique_common>
+            <accessor source="#_006_building_3-mesh-positions-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_006_building_3-mesh-normals">
+          <float_array id="_006_building_3-mesh-normals-array" count="33">0 1 -3.95747e-7 -0.7510335 0.559415 -0.3507189 0.3155269 -0.2752562 -0.9081171 -0.3717795 -0.1201753 -0.9205096 -0.3719463 -0.1202114 -0.9204376 -0.2571919 -0.1321826 -0.9572774 0 1 0 0.3155277 -0.2751995 -0.9081341 0.3155303 -0.2751986 -0.9081335 -0.371779 -0.1201807 -0.9205092 -0.2571906 -0.132198 -0.9572756</float_array>
+          <technique_common>
+            <accessor source="#_006_building_3-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_006_building_3-mesh-map-0">
+          <float_array id="_006_building_3-mesh-map-0-array" count="66">0.984774 -0.975951 0.791858 -0.80604 0.712489 -0.975951 0.02334398 -0.305674 0.154276 -0.09515798 0.218179 -0.09515798 0.310622 -0.09515798 0.310622 -0.291583 0.264697 -0.295255 0.207047 -0.294597 0.218179 -0.09515798 0.264697 -0.295255 0.264697 -0.295255 0.218179 -0.09515798 0.310622 -0.09515798 0.02334398 -0.305674 0.218179 -0.09515798 0.207047 -0.294597 0.984774 -0.975951 0.984774 -0.728094 0.791858 -0.80604 0.310622 -0.291583 0.310622 -0.487056 0.264697 -0.295255 0.264697 -0.295255 0.310622 -0.487056 0.188525 -0.627043 0.188525 -0.627043 0.207047 -0.294597 0.264697 -0.295255 0.02334398 -0.305674 0.207047 -0.294597 0.188525 -0.627043</float_array>
+          <technique_common>
+            <accessor source="#_006_building_3-mesh-map-0-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_006_building_3-mesh-colors-GeometrySource27" name="GeometrySource27">
+          <float_array id="_006_building_3-mesh-colors-GeometrySource27-array" count="99">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_006_building_3-mesh-colors-GeometrySource27-array" count="33" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_006_building_3-mesh-vertices">
+          <input semantic="POSITION" source="#_006_building_3-mesh-positions"/>
+        </vertices>
+        <polylist material="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" count="11">
+          <input semantic="VERTEX" source="#_006_building_3-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_006_building_3-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_006_building_3-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_006_building_3-mesh-colors-GeometrySource27" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 3 1 3 3 4 1 4 4 5 1 5 5 6 2 6 6 7 2 7 7 8 2 8 8 9 3 9 9 10 3 10 10 11 3 11 11 11 4 12 12 10 4 13 13 12 4 14 14 13 5 15 15 14 5 16 16 15 5 17 17 0 6 18 18 16 6 19 19 1 6 20 20 7 7 21 21 17 7 22 22 8 7 23 23 8 8 24 24 17 8 25 25 18 8 26 26 19 9 27 27 9 9 28 28 11 9 29 29 13 10 30 30 15 10 31 31 20 10 32 32</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_007_building_4-mesh" name="_007_building_4">
+      <mesh>
+        <source id="_007_building_4-mesh-positions">
+          <float_array id="_007_building_4-mesh-positions-array" count="69">-276.942 1013.88 -214.186 98.6726 1013.88 57.1911 131.562 1013.88 -214.186 36.6994 540.3421 -214.186 14.9794 521.686 -65.7963 -85.9786 -72.0881 -214.186 -85.9786 -72.0881 -214.186 -276.942 280.785 -7.96906 -276.942 142.42 -214.186 98.6726 1013.88 57.1911 -276.942 608.009 214.151 -276.942 280.785 -7.96906 25.3752 1013.88 214.151 -276.942 608.009 214.151 98.6726 1013.88 57.1911 -85.9786 -72.0881 -214.186 14.9794 521.686 -65.7963 -276.942 280.785 -7.96906 25.3752 1013.88 214.151 -276.942 1013.88 214.151 131.562 1013.88 -214.186 98.6726 1013.88 57.1911 98.6726 1013.88 57.1911</float_array>
+          <technique_common>
+            <accessor source="#_007_building_4-mesh-positions-array" count="23" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_007_building_4-mesh-normals">
+          <float_array id="_007_building_4-mesh-normals-array" count="33">0 1 -2.11418e-7 0.9736717 -0.1950395 0.1179966 -0.6821025 -0.6072341 0.4074348 0.6897445 -0.4066509 0.5990722 0.7510334 -0.559415 0.3507191 0.4078116 -0.2860371 0.8671058 0 1 -1.31713e-6 0 1 0 0.9736692 -0.1950526 0.1179947 0.9736688 -0.1950499 0.1180034 0.407796 -0.2860146 0.8671207</float_array>
+          <technique_common>
+            <accessor source="#_007_building_4-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_007_building_4-mesh-map-0">
+          <float_array id="_007_building_4-mesh-map-0-array" count="66">0.385278 -0.512311 0.791858 -0.80604 0.827457 -0.512311 0.284782 -0.332978 0.198567 -0.343805 0.284782 -0.688748 0.284782 -0.688748 0.164982 -0.483749 0.129715 -0.564139 0.127109 -0.05785995 0.03592097 -0.293661 0.164982 -0.483749 0.03592097 -0.05785995 0.03592097 -0.293661 0.127109 -0.05785995 0.284782 -0.688748 0.198567 -0.343805 0.164982 -0.483749 0.712489 -0.975951 0.791858 -0.80604 0.385278 -0.975951 0.385278 -0.975951 0.791858 -0.80604 0.385278 -0.512311 0.284782 -0.05785995 0.198567 -0.343805 0.284782 -0.332978 0.127109 -0.05785995 0.198567 -0.343805 0.284782 -0.05785995 0.164982 -0.483749 0.198567 -0.343805 0.127109 -0.05785995</float_array>
+          <technique_common>
+            <accessor source="#_007_building_4-mesh-map-0-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_007_building_4-mesh-colors-GeometrySource31" name="GeometrySource31">
+          <float_array id="_007_building_4-mesh-colors-GeometrySource31-array" count="99">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#_007_building_4-mesh-colors-GeometrySource31-array" count="33" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_007_building_4-mesh-vertices">
+          <input semantic="POSITION" source="#_007_building_4-mesh-positions"/>
+        </vertices>
+        <polylist material="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" count="11">
+          <input semantic="VERTEX" source="#_007_building_4-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_007_building_4-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_007_building_4-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_007_building_4-mesh-colors-GeometrySource31" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 3 1 3 3 4 1 4 4 5 1 5 5 6 2 6 6 7 2 7 7 8 2 8 8 9 3 9 9 10 3 10 10 11 3 11 11 12 4 12 12 13 4 13 13 14 4 14 14 15 5 15 15 16 5 16 16 17 5 17 17 18 6 18 18 1 6 19 19 19 6 20 20 19 7 21 21 1 7 22 22 0 7 23 23 20 8 24 24 4 8 25 25 3 8 26 26 21 9 27 27 4 9 28 28 20 9 29 29 17 10 30 30 16 10 31 31 22 10 32 32</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_008_TR_debris_1-mesh" name="_008_TR_debris_1">
+      <mesh>
+        <source id="_008_TR_debris_1-mesh-positions">
+          <float_array id="_008_TR_debris_1-mesh-positions-array" count="54">-32.978 -865.0241 -214.186 -29.9149 -941.7561 -214.186 -276.942 -888.817 -214.186 -276.942 -954.658 -214.186 -276.942 -922.2631 79.6227 -276.942 -949.027 81.5101 -276.942 -948.81 110.996 -276.942 -954.658 -214.186 -276.942 -888.817 -214.186 -273.693 -951.6561 -211.679 -29.9149 -938.754 -211.401 -273.693 -885.8161 -211.679 -32.978 -862.0231 -214.186 -276.942 -919.262 79.6227 -276.942 -945.809 110.996 -273.693 -946.025 80.5818 -273.693 -951.6561 -211.679 -273.693 -885.8161 -211.679</float_array>
+          <technique_common>
+            <accessor source="#_008_TR_debris_1-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_008_TR_debris_1-mesh-normals">
+          <float_array id="_008_TR_debris_1-mesh-normals-array" count="39">0 0 -1 0 0 -1 -1 -1.23683e-6 0 -1 0 0 -0.001129209 0 0.9999994 0.005432307 0.03036624 0.9995241 3.35706e-4 0.006836175 0.9999766 0.00677514 0.03653103 0.9993097 0.9932333 0.1110578 0.03396737 0.9868193 0.1235393 0.1045262 0.9911623 0.1221671 0.05169898 0.999921 0.007141411 0.01034587 0.999938 0 0.01113957</float_array>
+          <technique_common>
+            <accessor source="#_008_TR_debris_1-mesh-normals-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_008_TR_debris_1-mesh-map-0">
+          <float_array id="_008_TR_debris_1-mesh-map-0-array" count="60">0.916537 -0.967903 0.990624 -0.037741 0.438333 -0.967903 0.438333 -0.967903 0.990624 -0.037741 0.438333 -0.037741 -0.265449 -0.967903 -0.265449 -0.171422 -0.344226 -0.215992 -0.265449 -0.967903 0.438333 -0.037741 -0.265449 -0.171422 0.438333 -0.967903 0.438333 -0.037741 -0.265449 -0.967903 0.438333 -0.037741 0.990624 -0.037741 0.438333 -0.967903 0.438333 -0.967903 0.990624 -0.037741 0.916537 -0.967903 -0.265449 -0.967903 -0.344226 -0.215992 -0.265449 -0.171422 -0.265449 -0.171422 0.438333 -0.037741 -0.265449 -0.967903 -0.265449 -0.967903 0.438333 -0.037741 0.438333 -0.967903</float_array>
+          <technique_common>
+            <accessor source="#_008_TR_debris_1-mesh-map-0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_008_TR_debris_1-mesh-colors-GeometrySource35" name="GeometrySource35">
+          <float_array id="_008_TR_debris_1-mesh-colors-GeometrySource35-array" count="90">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667</float_array>
+          <technique_common>
+            <accessor source="#_008_TR_debris_1-mesh-colors-GeometrySource35-array" count="30" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_008_TR_debris_1-mesh-vertices">
+          <input semantic="POSITION" source="#_008_TR_debris_1-mesh-positions"/>
+        </vertices>
+        <polylist material="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material" count="10">
+          <input semantic="VERTEX" source="#_008_TR_debris_1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_008_TR_debris_1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_008_TR_debris_1-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_008_TR_debris_1-mesh-colors-GeometrySource35" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 2 1 3 3 1 1 4 4 3 1 5 5 4 2 6 6 5 2 7 7 6 2 8 8 4 3 9 9 7 3 10 10 5 3 11 11 8 3 12 12 7 3 13 13 4 3 14 14 9 4 15 15 10 5 16 16 11 6 17 17 11 6 18 18 10 5 19 19 12 7 20 20 13 8 21 21 14 9 22 22 15 10 23 23 15 10 24 24 16 11 25 25 13 8 26 26 13 8 27 27 16 11 28 28 17 12 29 29</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_009_TR_debris_2-mesh" name="_009_TR_debris_2">
+      <mesh>
+        <source id="_009_TR_debris_2-mesh-positions">
+          <float_array id="_009_TR_debris_2-mesh-positions-array" count="108">276.919 -803.546 -0.172123 276.919 -882.598 -0.172123 276.919 -803.546 -214.186 276.919 -895.809 -214.186 69.8054 -803.36 214.151 69.8054 -853.6691 214.151 276.919 -803.546 214.151 276.919 -869.3861 214.151 273.67 -800.5441 1.49862 273.67 -800.5441 -211.679 273.67 -879.504 1.49862 273.67 -892.8081 -211.679 69.0009 -800.359 211.645 273.67 -800.5441 211.645 69.0009 -850.668 211.645 273.67 -866.3851 211.645 106.903 -816.1691 -214.186 107.088 -910.197 -214.186 -32.978 -865.0241 -214.186 -29.9149 -941.7561 -214.186 106.16 -907.1641 -211.525 273.67 -892.8081 -211.679 108.512 -812.2091 -213.134 273.67 -800.5441 -211.679 276.919 -895.809 -214.186 276.919 -803.546 -214.186 -32.978 -862.0231 -214.186 -29.9149 -938.754 -211.401 276.919 -803.546 214.151 276.919 -869.3861 214.151 276.919 -803.546 -0.172123 276.919 -882.598 -0.172123 273.67 -800.5441 211.645 273.67 -800.5441 1.49862 273.67 -866.3851 211.645 273.67 -879.504 1.49862</float_array>
+          <technique_common>
+            <accessor source="#_009_TR_debris_2-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_009_TR_debris_2-mesh-normals">
+          <float_array id="_009_TR_debris_2-mesh-normals-array" count="42">1 0 0 0 0 1 0 0 1 -1 0 0 0 0 -1 -1.48394e-7 0 -1 0 0 -1 -0.006714165 0.02020359 0.9997734 -0.006103813 0.005493462 0.9999664 -0.007477223 0.01397782 0.9998744 -0.008789479 0 0.9999614 0 0 -1 -0.009552359 0.02942007 0.9995215 -0.007416188 0.03595179 0.9993261</float_array>
+          <technique_common>
+            <accessor source="#_009_TR_debris_2-mesh-normals-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_009_TR_debris_2-mesh-map-0">
+          <float_array id="_009_TR_debris_2-mesh-map-0-array" count="120">1.06407 -0.967903 1.06407 -0.037741 0.591907 -0.967903 0.591907 -0.967903 1.06407 -0.037741 0.591907 -0.037741 1.20798 -0.947608 1.20798 -0.037741 0.536934 -0.967903 0.536934 -0.967903 1.20798 -0.037741 0.536934 -0.037741 1.06781 -0.967903 0.591907 -0.967903 1.06781 -0.037741 1.06781 -0.037741 0.591907 -0.967903 0.591907 -0.037741 1.20798 -0.947608 0.536934 -0.967903 1.20798 -0.037741 1.20798 -0.037741 0.536934 -0.967903 0.536934 -0.037741 0.195654 -0.967903 0.2334319 -0.037741 -0.08347499 -0.967903 -0.08347499 -0.967903 0.2334319 -0.037741 -0.009387969 -0.037741 0.234237 -0.037741 0.591907 -0.037741 0.199302 -0.967903 0.199302 -0.967903 0.591907 -0.037741 0.591907 -0.967903 0.195654 -0.967903 0.591907 -0.037741 0.2334319 -0.037741 0.591907 -0.967903 0.591907 -0.037741 0.195654 -0.967903 -0.08347499 -0.967903 0.234237 -0.037741 0.199302 -0.967903 -0.009387969 -0.037741 0.234237 -0.037741 -0.08347499 -0.967903 0.536934 -0.967903 0.536934 -0.037741 0.06405895 -0.967903 0.06405895 -0.967903 0.536934 -0.037741 0.06405895 -0.037741 0.536934 -0.967903 0.06780099 -0.967903 0.536934 -0.037741 0.536934 -0.037741 0.06780099 -0.967903 0.06780099 -0.037741</float_array>
+          <technique_common>
+            <accessor source="#_009_TR_debris_2-mesh-map-0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_009_TR_debris_2-mesh-colors-GeometrySource39" name="GeometrySource39">
+          <float_array id="_009_TR_debris_2-mesh-colors-GeometrySource39-array" count="180">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667</float_array>
+          <technique_common>
+            <accessor source="#_009_TR_debris_2-mesh-colors-GeometrySource39-array" count="60" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_009_TR_debris_2-mesh-vertices">
+          <input semantic="POSITION" source="#_009_TR_debris_2-mesh-positions"/>
+        </vertices>
+        <polylist material="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material" count="20">
+          <input semantic="VERTEX" source="#_009_TR_debris_2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_009_TR_debris_2-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_009_TR_debris_2-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_009_TR_debris_2-mesh-colors-GeometrySource39" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 2 0 3 3 1 0 4 4 3 0 5 5 4 1 6 6 5 1 7 7 6 1 8 8 6 2 9 9 5 2 10 10 7 2 11 11 8 3 12 12 9 3 13 13 10 3 14 14 10 3 15 15 9 3 16 16 11 3 17 17 12 4 18 18 13 4 19 19 14 4 20 20 14 4 21 21 13 4 22 22 15 4 23 23 16 5 24 24 17 5 25 25 18 5 26 26 18 6 27 27 17 6 28 28 19 6 29 29 20 7 30 30 21 8 31 31 22 9 32 32 22 9 33 33 21 8 34 34 23 10 35 35 16 11 36 36 24 11 37 37 17 11 38 38 25 4 39 39 24 4 40 40 16 4 41 41 26 12 42 42 20 7 43 43 22 9 44 44 27 13 45 45 20 7 46 46 26 12 47 47 28 0 48 48 29 0 49 49 30 0 50 50 30 0 51 51 29 0 52 52 31 0 53 53 32 3 54 54 33 3 55 55 34 3 56 56 34 3 57 57 33 3 58 58 35 3 59 59</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="_010_TR_debris_3-mesh" name="_010_TR_debris_3">
+      <mesh>
+        <source id="_010_TR_debris_3-mesh-positions">
+          <float_array id="_010_TR_debris_3-mesh-positions-array" count="42">-111.783 -832.2581 214.151 -104.264 -858.619 214.151 -134.431 -858.8051 214.151 -111.783 -832.2581 214.151 -104.264 -858.619 214.151 69.8054 -803.36 214.151 69.8054 -853.6691 214.151 -110.483 -829.257 211.645 -132.853 -855.835 211.645 -103.058 -855.6181 211.645 -110.483 -829.257 211.645 69.0009 -800.359 211.645 -103.058 -855.6181 211.645 69.0009 -850.668 211.645</float_array>
+          <technique_common>
+            <accessor source="#_010_TR_debris_3-mesh-positions-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_010_TR_debris_3-mesh-normals">
+          <float_array id="_010_TR_debris_3-mesh-normals-array" count="18">-5.65046e-7 0 -1 -3.90305e-7 0 1 0 0 1 3.10203e-7 0 1 -3.94895e-7 0 -1 2.25635e-7 0 -1</float_array>
+          <technique_common>
+            <accessor source="#_010_TR_debris_3-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_010_TR_debris_3-mesh-map-0">
+          <float_array id="_010_TR_debris_3-mesh-map-0-array" count="36">0.718789 -0.907106 0.718789 -0.037741 0.797045 -0.037741 0.718789 -0.907106 0.718789 -0.037741 0.20797 -0.947608 0.20797 -0.947608 0.718789 -0.037741 0.20797 -0.037741 0.718789 -0.907106 0.797045 -0.037741 0.718789 -0.037741 0.718789 -0.907106 0.20797 -0.947608 0.718789 -0.037741 0.718789 -0.037741 0.20797 -0.947608 0.20797 -0.037741</float_array>
+          <technique_common>
+            <accessor source="#_010_TR_debris_3-mesh-map-0-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_010_TR_debris_3-mesh-colors-GeometrySource43" name="GeometrySource43">
+          <float_array id="_010_TR_debris_3-mesh-colors-GeometrySource43-array" count="54">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667 0.6666667</float_array>
+          <technique_common>
+            <accessor source="#_010_TR_debris_3-mesh-colors-GeometrySource43-array" count="18" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_010_TR_debris_3-mesh-vertices">
+          <input semantic="POSITION" source="#_010_TR_debris_3-mesh-positions"/>
+        </vertices>
+        <polylist material="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material" count="6">
+          <input semantic="VERTEX" source="#_010_TR_debris_3-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_010_TR_debris_3-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_010_TR_debris_3-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#_010_TR_debris_3-mesh-colors-GeometrySource43" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 3 1 3 3 4 1 4 4 5 1 5 5 5 2 6 6 4 2 7 7 6 2 8 8 7 3 9 9 8 3 10 10 9 3 11 11 10 4 12 12 11 4 13 13 12 4 14 14 12 5 15 15 11 5 16 16 13 5 17 17</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature__000_building_1-skin" name="Armature">
+      <skin source="#_000_building_1-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__000_building_1-skin-joints">
+          <Name_array id="Armature__000_building_1-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__000_building_1-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__000_building_1-skin-bind_poses">
+          <float_array id="Armature__000_building_1-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__000_building_1-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__000_building_1-skin-weights">
+          <float_array id="Armature__000_building_1-skin-weights-array" count="40">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__000_building_1-skin-weights-array" count="40" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__000_building_1-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__000_building_1-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="40">
+          <input semantic="JOINT" source="#Armature__000_building_1-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__000_building_1-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>9 0 9 1 9 2 9 3 9 4 9 5 9 6 9 7 9 8 9 9 9 10 9 11 9 12 9 13 9 14 9 15 9 16 9 17 9 18 9 19 9 20 9 21 9 22 9 23 9 24 9 25 9 26 9 27 9 28 9 29 9 30 9 31 9 32 9 33 9 34 9 35 9 36 9 37 9 38 9 39</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__001_building_2-skin" name="Armature">
+      <skin source="#_001_building_2-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__001_building_2-skin-joints">
+          <Name_array id="Armature__001_building_2-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__001_building_2-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__001_building_2-skin-bind_poses">
+          <float_array id="Armature__001_building_2-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__001_building_2-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__001_building_2-skin-weights">
+          <float_array id="Armature__001_building_2-skin-weights-array" count="32">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__001_building_2-skin-weights-array" count="32" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__001_building_2-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__001_building_2-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#Armature__001_building_2-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__001_building_2-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>11 0 11 1 11 2 11 3 11 4 11 5 11 6 11 7 11 8 11 9 11 10 11 11 11 12 11 13 11 14 11 15 11 16 11 17 11 18 11 19 11 20 11 21 11 22 11 23 11 24 11 25 11 26 11 27 11 28 11 29 11 30 11 31</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__002_building_3-skin" name="Armature">
+      <skin source="#_002_building_3-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__002_building_3-skin-joints">
+          <Name_array id="Armature__002_building_3-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__002_building_3-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__002_building_3-skin-bind_poses">
+          <float_array id="Armature__002_building_3-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__002_building_3-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__002_building_3-skin-weights">
+          <float_array id="Armature__002_building_3-skin-weights-array" count="11">1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__002_building_3-skin-weights-array" count="11" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__002_building_3-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__002_building_3-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="11">
+          <input semantic="JOINT" source="#Armature__002_building_3-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__002_building_3-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>14 0 14 1 14 2 14 3 14 4 14 5 14 6 14 7 14 8 14 9 14 10</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__003_building_4-skin" name="Armature">
+      <skin source="#_003_building_4-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__003_building_4-skin-joints">
+          <Name_array id="Armature__003_building_4-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__003_building_4-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__003_building_4-skin-bind_poses">
+          <float_array id="Armature__003_building_4-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__003_building_4-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__003_building_4-skin-weights">
+          <float_array id="Armature__003_building_4-skin-weights-array" count="15">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__003_building_4-skin-weights-array" count="15" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__003_building_4-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__003_building_4-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="15">
+          <input semantic="JOINT" source="#Armature__003_building_4-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__003_building_4-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>16 0 16 1 16 2 16 3 16 4 16 5 16 6 16 7 16 8 16 9 16 10 16 11 16 12 16 13 16 14</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__004_building_1-skin" name="Armature">
+      <skin source="#_004_building_1-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__004_building_1-skin-joints">
+          <Name_array id="Armature__004_building_1-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__004_building_1-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__004_building_1-skin-bind_poses">
+          <float_array id="Armature__004_building_1-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__004_building_1-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__004_building_1-skin-weights">
+          <float_array id="Armature__004_building_1-skin-weights-array" count="44">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__004_building_1-skin-weights-array" count="44" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__004_building_1-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__004_building_1-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="44">
+          <input semantic="JOINT" source="#Armature__004_building_1-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__004_building_1-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>9 0 9 1 9 2 9 3 9 4 9 5 9 6 9 7 9 8 9 9 9 10 9 11 9 12 9 13 9 14 9 15 9 16 9 17 9 18 9 19 9 20 9 21 9 22 9 23 9 24 9 25 9 26 9 27 9 28 9 29 9 30 9 31 9 32 9 33 9 34 9 35 9 36 9 37 9 38 9 39 9 40 9 41 9 42 9 43</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__005_building_2-skin" name="Armature">
+      <skin source="#_005_building_2-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__005_building_2-skin-joints">
+          <Name_array id="Armature__005_building_2-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__005_building_2-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__005_building_2-skin-bind_poses">
+          <float_array id="Armature__005_building_2-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__005_building_2-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__005_building_2-skin-weights">
+          <float_array id="Armature__005_building_2-skin-weights-array" count="44">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__005_building_2-skin-weights-array" count="44" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__005_building_2-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__005_building_2-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="44">
+          <input semantic="JOINT" source="#Armature__005_building_2-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__005_building_2-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>11 0 11 1 11 2 11 3 11 4 11 5 11 6 11 7 11 8 11 9 11 10 11 11 11 12 11 13 11 14 11 15 11 16 11 17 11 18 11 19 11 20 11 21 11 22 11 23 11 24 11 25 11 26 11 27 11 28 11 29 11 30 11 31 11 32 11 33 11 34 11 35 11 36 11 37 11 38 11 39 11 40 11 41 11 42 11 43</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__006_building_3-skin" name="Armature">
+      <skin source="#_006_building_3-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__006_building_3-skin-joints">
+          <Name_array id="Armature__006_building_3-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__006_building_3-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__006_building_3-skin-bind_poses">
+          <float_array id="Armature__006_building_3-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__006_building_3-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__006_building_3-skin-weights">
+          <float_array id="Armature__006_building_3-skin-weights-array" count="21">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__006_building_3-skin-weights-array" count="21" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__006_building_3-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__006_building_3-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="21">
+          <input semantic="JOINT" source="#Armature__006_building_3-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__006_building_3-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>14 0 14 1 14 2 14 3 14 4 14 5 14 6 14 7 14 8 14 9 14 10 14 11 14 12 14 13 14 14 14 15 14 16 14 17 14 18 14 19 14 20</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__007_building_4-skin" name="Armature">
+      <skin source="#_007_building_4-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__007_building_4-skin-joints">
+          <Name_array id="Armature__007_building_4-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__007_building_4-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__007_building_4-skin-bind_poses">
+          <float_array id="Armature__007_building_4-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__007_building_4-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__007_building_4-skin-weights">
+          <float_array id="Armature__007_building_4-skin-weights-array" count="23">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__007_building_4-skin-weights-array" count="23" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__007_building_4-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__007_building_4-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="23">
+          <input semantic="JOINT" source="#Armature__007_building_4-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__007_building_4-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>16 0 16 1 16 2 16 3 16 4 16 5 16 6 16 7 16 8 16 9 16 10 16 11 16 12 16 13 16 14 16 15 16 16 16 17 16 18 16 19 16 20 16 21 16 22</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__008_TR_debris_1-skin" name="Armature">
+      <skin source="#_008_TR_debris_1-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__008_TR_debris_1-skin-joints">
+          <Name_array id="Armature__008_TR_debris_1-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__008_TR_debris_1-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__008_TR_debris_1-skin-bind_poses">
+          <float_array id="Armature__008_TR_debris_1-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__008_TR_debris_1-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__008_TR_debris_1-skin-weights">
+          <float_array id="Armature__008_TR_debris_1-skin-weights-array" count="18">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__008_TR_debris_1-skin-weights-array" count="18" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__008_TR_debris_1-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__008_TR_debris_1-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="18">
+          <input semantic="JOINT" source="#Armature__008_TR_debris_1-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__008_TR_debris_1-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>9 0 9 1 9 2 9 3 9 4 9 5 9 6 9 7 9 8 9 9 9 10 9 11 9 12 9 13 9 14 9 15 9 16 9 17</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__009_TR_debris_2-skin" name="Armature">
+      <skin source="#_009_TR_debris_2-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__009_TR_debris_2-skin-joints">
+          <Name_array id="Armature__009_TR_debris_2-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__009_TR_debris_2-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__009_TR_debris_2-skin-bind_poses">
+          <float_array id="Armature__009_TR_debris_2-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__009_TR_debris_2-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__009_TR_debris_2-skin-weights">
+          <float_array id="Armature__009_TR_debris_2-skin-weights-array" count="36">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__009_TR_debris_2-skin-weights-array" count="36" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__009_TR_debris_2-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__009_TR_debris_2-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="36">
+          <input semantic="JOINT" source="#Armature__009_TR_debris_2-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__009_TR_debris_2-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>11 0 11 1 11 2 11 3 11 4 11 5 11 6 11 7 11 8 11 9 11 10 11 11 11 12 11 13 11 14 11 15 11 16 11 17 11 18 11 19 11 20 11 21 11 22 11 23 11 24 11 25 11 26 11 27 11 28 11 29 11 30 11 31 11 32 11 33 11 34 11 35</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__010_TR_debris_3-skin" name="Armature">
+      <skin source="#_010_TR_debris_3-mesh">
+        <bind_shape_matrix>0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature__010_TR_debris_3-skin-joints">
+          <Name_array id="Armature__010_TR_debris_3-skin-joints-array" count="21">building building_1 building_2 building_3 building_4 TR_debris_1 TR_debris_2 TR_debris_3 root parts_1 loc_202 parts_2 loc_201 loc_203 parts_3 loc_204 parts_4 loc_205 loc_100 loc_101 loc_200</Name_array>
+          <technique_common>
+            <accessor source="#Armature__010_TR_debris_3-skin-joints-array" count="21" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__010_TR_debris_3-skin-bind_poses">
+          <float_array id="Armature__010_TR_debris_3-skin-bind_poses-array" count="336">100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 112.72 -3.34859e-5 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 3.8147e-6 145.383 0 -1.62921e-5 100.0001 332.479 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 1.90735e-6 -164.975 0 -1.62921e-5 100.0001 561.801 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 881.1652 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -147.764 0 -1.62921e-5 100.0001 49.00421 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 -164.969 -3.88999e-5 -1.62921e-5 100.0001 -652.632 -2.13605e-6 -100.0001 -1.33514e-5 -163.837 0 0 0 1 100.0001 -8.80742e-6 0 -147.764 8.72999e-5 -3.96161e-5 100.0001 -664.6482 8.96668e-6 -100.0001 -1.52588e-5 -150.436 0 0 0 1 100.0001 0 0 201.929 0 -1.62921e-5 100.0001 -800.762 0 -100.0001 -1.71661e-5 -65.20079 0 0 0 1 100.0001 0 0 158.264 4.27201e-5 -1.62921e-5 100.0001 -716.7249 -3.41343e-7 -100.0001 -1.62125e-5 69.72679 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1 100.0001 0 0 0 0 -1.62921e-5 100.0001 0 0 -100.0001 -1.62921e-5 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__010_TR_debris_3-skin-bind_poses-array" count="21" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature__010_TR_debris_3-skin-weights">
+          <float_array id="Armature__010_TR_debris_3-skin-weights-array" count="14">1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature__010_TR_debris_3-skin-weights-array" count="14" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature__010_TR_debris_3-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature__010_TR_debris_3-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="14">
+          <input semantic="JOINT" source="#Armature__010_TR_debris_3-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature__010_TR_debris_3-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>9 0 9 1 9 2 9 3 9 4 9 5 9 6 9 7 9 8 9 9 9 10 9 11 9 12 9 13</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</matrix>
+        <node id="building" name="building" sid="building" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="building_1" name="building_1" sid="building_1" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="building_2" name="building_2" sid="building_2" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="building_3" name="building_3" sid="building_3" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="building_4" name="building_4" sid="building_4" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="TR_debris_1" name="TR_debris_1" sid="TR_debris_1" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="TR_debris_2" name="TR_debris_2" sid="TR_debris_2" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="TR_debris_3" name="TR_debris_3" sid="TR_debris_3" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+        </node>
+        <node id="root" name="root" sid="root" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="parts_1" name="parts_1" sid="parts_1" type="JOINT">
+            <matrix sid="transform">1 0 0 -112.72 0 1 0 -561.801 0 0 1 0 0 0 0 1</matrix>
+            <node id="loc_202" name="loc_202" sid="loc_202" type="JOINT">
+              <matrix sid="transform">1 0 0 -32.66301 0 1 0 229.322 0 0 1 0 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="parts_2" name="parts_2" sid="parts_2" type="JOINT">
+            <matrix sid="transform">1 0 0 164.975 0 1 0 -561.801 0 0 1 0 0 0 0 1</matrix>
+            <node id="loc_201" name="loc_201" sid="loc_201" type="JOINT">
+              <matrix sid="transform">1 0 0 -164.975 0 1 0 -319.3641 0 0 1 0 0 0 0 1</matrix>
+            </node>
+            <node id="loc_203" name="loc_203" sid="loc_203" type="JOINT">
+              <matrix sid="transform">1 0 0 -17.211 0 1 0 512.7968 0 0 1 0 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="parts_3" name="parts_3" sid="parts_3" type="JOINT">
+            <matrix sid="transform">1 0 0 164.969 0 1 0 652.632 0 0 1 163.837 0 0 0 1</matrix>
+            <node id="loc_204" name="loc_204" sid="loc_204" type="JOINT">
+              <matrix sid="transform">1 0 0 -17.205 0 1 0 12.01605 0 0 1 -13.401 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="parts_4" name="parts_4" sid="parts_4" type="JOINT">
+            <matrix sid="transform">1 0 0 -201.929 0 1 0 800.762 0 0 1 65.2008 0 0 0 1</matrix>
+            <node id="loc_205" name="loc_205" sid="loc_205" type="JOINT">
+              <matrix sid="transform">1 0 0 43.66501 0 1 0 -84.03699 0 0 1 -134.9276 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="loc_100" name="loc_100" sid="loc_100" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="loc_101" name="loc_101" sid="loc_101" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="loc_200" name="loc_200" sid="loc_200" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="_000_building_1" name="_000_building_1" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__000_building_1-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" target="#_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material">
+                <bind_vertex_input semantic="GeometrySource2" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_001_building_2" name="_001_building_2" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__001_building_2-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" target="#_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material">
+                <bind_vertex_input semantic="GeometrySource6" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_002_building_3" name="_002_building_3" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__002_building_3-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" target="#_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material">
+                <bind_vertex_input semantic="GeometrySource10" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_003_building_4" name="_003_building_4" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__003_building_4-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material" target="#_000_D__hiro_3D_madoka_enemy_building_sourceimages_building_01_-material">
+                <bind_vertex_input semantic="GeometrySource14" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_004_building_1" name="_004_building_1" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__004_building_1-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" target="#_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material">
+                <bind_vertex_input semantic="GeometrySource18" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_005_building_2" name="_005_building_2" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__005_building_2-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" target="#_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material">
+                <bind_vertex_input semantic="GeometrySource22" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_006_building_3" name="_006_building_3" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__006_building_3-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" target="#_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material">
+                <bind_vertex_input semantic="GeometrySource26" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_007_building_4" name="_007_building_4" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__007_building_4-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material" target="#_001_D__hiro_3D_madoka_enemy_building_sourceimages_building_02_-material">
+                <bind_vertex_input semantic="GeometrySource30" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_008_TR_debris_1" name="_008_TR_debris_1" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__008_TR_debris_1-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material" target="#_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material">
+                <bind_vertex_input semantic="GeometrySource34" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_009_TR_debris_2" name="_009_TR_debris_2" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__009_TR_debris_2-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material" target="#_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material">
+                <bind_vertex_input semantic="GeometrySource38" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_010_TR_debris_3" name="_010_TR_debris_3" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature__010_TR_debris_3-skin">
+          <skeleton>#building</skeleton>
+          <skeleton>#root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material" target="#_002_D__hiro_3D_madoka_enemy_building_sourceimages_building_03_-material">
+                <bind_vertex_input semantic="GeometrySource42" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Armature_001" name="Armature_001" type="NODE">
+        <matrix sid="transform">0.00999999 0 0 0 0 -1.62921e-9 -0.00999999 0 0 0.00999999 -1.62921e-9 0 0 0 0 1</matrix>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
