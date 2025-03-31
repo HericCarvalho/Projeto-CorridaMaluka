@@ -85,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 824397849001732218, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_Id
-      value: c9306079-3aad-475e-bed4-30fc4dca9daf
+      value: 3b1862d7-0390-49d4-a8c1-ebdadda4bb1f
       objectReference: {fileID: 0}
     - target: {fileID: 4810912517523753820, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
@@ -240,7 +240,12 @@ PrefabInstance:
     - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: SuspensionDamp
-      value: 4229
+      value: 3298
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: baseStats.Grip
+      value: 0.787
       objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
@@ -250,7 +255,27 @@ PrefabInstance:
     - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: SuspensionSpring
-      value: 34049
+      value: 31390
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: baseStats.Braking
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: baseStats.TopSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: baseStats.Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: baseStats.AccelerationCurve
+      value: 0.762
       objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
