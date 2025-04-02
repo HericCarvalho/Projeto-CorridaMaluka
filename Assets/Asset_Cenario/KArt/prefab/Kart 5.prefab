@@ -226,7 +226,12 @@ PrefabInstance:
     - target: {fileID: 2801334588980233450, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: m_Name
-      value: KartClassic_Player Variant
+      value: Kart 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233452, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: m_Mass
+      value: 380
       objectReference: {fileID: 0}
     - target: {fileID: 2801334588980233453, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
@@ -280,8 +285,88 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
+      propertyPath: DriftGrip
+      value: 0.853
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: DriftControl
+      value: 15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: DriftDampening
+      value: 8.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: SuspensionDamp
+      value: 3617
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: baseStats.Grip
+      value: 0.782
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: baseStats.Steer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
       propertyPath: SuspensionHeight
-      value: 0.106
+      value: 0.516
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: SuspensionSpring
+      value: 68620
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: baseStats.TopSpeed
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: DriftAdditionalSteer
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: MinAngleToFinishDrift
+      value: 22.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: baseStats.Acceleration
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: baseStats.CoastingDrag
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: baseStats.ReverseSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: baseStats.AccelerationCurve
+      value: 0.651
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: MinSpeedPercentToFinishDrift
+      value: 0.656
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: WheelsPositionVerticalOffset
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 2801334589047588005, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}

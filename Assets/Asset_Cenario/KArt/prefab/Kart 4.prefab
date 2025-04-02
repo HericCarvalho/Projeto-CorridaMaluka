@@ -175,8 +175,98 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
+      propertyPath: DriftGrip
+      value: 0.742
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: DriftControl
+      value: 14.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: DriftDampening
+      value: 5.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: SuspensionDamp
+      value: 4149
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.Grip
+      value: 0.851
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.Steer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
       propertyPath: SuspensionHeight
-      value: 0.149
+      value: 0.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: SuspensionSpring
+      value: 43623
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.TopSpeed
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: DriftAdditionalSteer
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: MinAngleToFinishDrift
+      value: 26.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.Acceleration
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.AddedGravity
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.CoastingDrag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.ReverseSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.AccelerationCurve
+      value: 0.502
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: MinSpeedPercentToFinishDrift
+      value: 0.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: WheelsPositionVerticalOffset
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: baseStats.ReverseAcceleration
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3749941718056525042, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
@@ -228,10 +318,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525043, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: m_Mass
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 3749941718056525045, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
       propertyPath: m_Name
-      value: KartClassic_Player Variant
+      value: Kart 4
       objectReference: {fileID: 0}
     - target: {fileID: 3749941718123912378, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
@@ -337,15 +432,55 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5546747315237514756, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -928431260872782456, guid: 6af5eb4586995a941ac8a91b15273bcc,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0249
       objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6af5eb4586995a941ac8a91b15273bcc,
         type: 3}
       propertyPath: m_Name
       value: CArrinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849762623622064168, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512510688612296998, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6919683763462532184, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513859187771203891, guid: 6af5eb4586995a941ac8a91b15273bcc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

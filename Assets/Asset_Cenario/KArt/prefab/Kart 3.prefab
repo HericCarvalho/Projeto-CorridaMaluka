@@ -28,6 +28,101 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: DriftGrip
+      value: 0.379
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: DriftControl
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: DriftDampening
+      value: 9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: SuspensionDamp
+      value: 1755
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.Grip
+      value: 0.383
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.Steer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: SuspensionHeight
+      value: 0.457
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: SuspensionSpring
+      value: 54792
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.Braking
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.TopSpeed
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: MinAngleToFinishDrift
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.Acceleration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.CoastingDrag
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.ReverseSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.AccelerationCurve
+      value: 0.638
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: MinSpeedPercentToFinishDrift
+      value: 0.818
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: WheelsPositionVerticalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: baseStats.ReverseAcceleration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443996235805199258, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: m_Mass
+      value: 235
+      objectReference: {fileID: 0}
     - target: {fileID: 2443996235805199259, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -81,7 +176,7 @@ PrefabInstance:
     - target: {fileID: 2443996235805199260, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: m_Name
-      value: KartClassic_Player Variant
+      value: Kart 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
