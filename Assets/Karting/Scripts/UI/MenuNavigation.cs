@@ -25,4 +25,9 @@ public class MenuNavigation : MonoBehaviour
             }
         }
     }
+    public void fechar()
+    {
+        Debug.Log("fechar");
+        Application.Quit();
+    }
 }
