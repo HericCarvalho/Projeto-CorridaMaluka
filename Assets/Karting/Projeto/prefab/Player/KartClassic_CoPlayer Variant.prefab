@@ -1,12 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1640310404137771600
+--- !u!1001 &8488966891075270279
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1086490042364171068}
+    m_TransformParent: {fileID: 5601821464700774734}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1118b91805a38724ba5e6df1af67ac3f,
         type: 3}
@@ -63,23 +63,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: kartS rick
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1118b91805a38724ba5e6df1af67ac3f,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1118b91805a38724ba5e6df1af67ac3f, type: 3}
---- !u!4 &1245584918533047739 stripped
+--- !u!4 &8233819355581419884 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1118b91805a38724ba5e6df1af67ac3f,
     type: 3}
-  m_PrefabInstance: {fileID: 1640310404137771600}
+  m_PrefabInstance: {fileID: 8488966891075270279}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &4106715721006337907
+--- !u!1001 &8814576010266686721
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -90,22 +85,22 @@ PrefabInstance:
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.6
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.6
+      value: -1.68
       objectReference: {fileID: 0}
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.9
+      value: -252.65
       objectReference: {fileID: 0}
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
@@ -115,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
@@ -130,107 +125,37 @@ PrefabInstance:
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 1807963872105579752, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579753, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
+    - target: {fileID: 1807963872105579755, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
-      propertyPath: m_Mass
-      value: 275
+      propertyPath: TurnInputName
+      value: Horizontal 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
+    - target: {fileID: 1807963872105579755, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
-      propertyPath: DriftGrip
-      value: 0.51
+      propertyPath: BrakeButtonName
+      value: Brake 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
+    - target: {fileID: 1807963872105579755, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
-      propertyPath: DriftControl
-      value: 10.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: DriftDampening
-      value: 10.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: SuspensionDamp
-      value: 1383
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: baseStats.Grip
-      value: 0.601
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: baseStats.Steer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: SuspensionHeight
-      value: 0.218
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: SuspensionSpring
-      value: 33517
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: baseStats.TopSpeed
-      value: 77
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: DriftAdditionalSteer
-      value: 0.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: MinAngleToFinishDrift
-      value: 22.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: baseStats.Acceleration
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: baseStats.CoastingDrag
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: baseStats.AccelerationCurve
-      value: 0.715
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579754, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: WheelsPositionVerticalOffset
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1807963872105579758, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
-        type: 3}
-      propertyPath: steeringAnimationDamping
-      value: 10
+      propertyPath: AccelerateButtonName
+      value: Accelerate 2
       objectReference: {fileID: 0}
     - target: {fileID: 1807963872105579759, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_Name
-      value: Kart 2
+      value: KartClassic_CoPlayer Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 1807963873826545522, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
+    - target: {fileID: 1807963872105579759, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
-      propertyPath: m_Layer
-      value: 2
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4030159674432845424, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
@@ -240,7 +165,7 @@ PrefabInstance:
     - target: {fileID: 5810839356838414486, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       propertyPath: m_Id
-      value: 40b3b4ed-0e4f-4092-b0f9-398210a5dfa7
+      value: 7f785244-c739-44b8-8bf5-22fad9cf38c1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -250,12 +175,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4030159675445337167, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
         type: 3}
       insertIndex: 0
-      addedObject: {fileID: 1245584918533047739}
+      addedObject: {fileID: 8233819355581419884}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1ef673d6afaafa4cbdbb2a84edabcfe, type: 3}
---- !u!4 &1086490042364171068 stripped
+--- !u!4 &5601821464700774734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4030159675445337167, guid: e1ef673d6afaafa4cbdbb2a84edabcfe,
     type: 3}
-  m_PrefabInstance: {fileID: 4106715721006337907}
+  m_PrefabInstance: {fileID: 8814576010266686721}
   m_PrefabAsset: {fileID: 0}

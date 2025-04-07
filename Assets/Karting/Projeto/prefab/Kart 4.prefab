@@ -216,7 +216,7 @@ PrefabInstance:
     - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
       propertyPath: baseStats.TopSpeed
-      value: 47
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
