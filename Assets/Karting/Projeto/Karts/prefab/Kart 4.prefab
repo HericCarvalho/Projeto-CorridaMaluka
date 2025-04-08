@@ -216,7 +216,7 @@ PrefabInstance:
     - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
       propertyPath: baseStats.TopSpeed
-      value: 73
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
@@ -267,6 +267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: baseStats.ReverseAcceleration
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749941718056525041, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3749941718056525042, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
@@ -351,7 +356,11 @@ PrefabInstance:
         type: 3}
       insertIndex: 0
       addedObject: {fileID: 1249074702653403120}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3749941718056525045, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4996480740136213093}
   m_SourcePrefab: {fileID: 100100000, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f, type: 3}
 --- !u!4 &583633657894050890 stripped
 Transform:
@@ -359,6 +368,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1362953413616457759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2801334588980233450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3749941718056525045, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1362953413616457759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4996480740136213093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2801334588980233450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0de1dce9704d34298de71636a27941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wayfather: {fileID: 0}
+  isFollowing: 1
+  distanceToWaypoint: 10
 --- !u!1001 &1648075225367595035
 PrefabInstance:
   m_ObjectHideFlags: 0

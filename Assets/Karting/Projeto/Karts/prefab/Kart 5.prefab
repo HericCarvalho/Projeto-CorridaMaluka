@@ -283,6 +283,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2801334588980233454, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: DriftGrip
@@ -326,7 +331,7 @@ PrefabInstance:
     - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: baseStats.TopSpeed
-      value: 70
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
@@ -398,6 +403,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.494
       objectReference: {fileID: 0}
+    - target: {fileID: 8021831214250838163, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: m_Id
+      value: c523197b-ae81-4864-8eb0-1bf029b27d63
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1882023601044288842, guid: b4f6c12808e758842b9b638cef35cc21, type: 3}
@@ -406,8 +416,33 @@ PrefabInstance:
         type: 3}
       insertIndex: 0
       addedObject: {fileID: 3904453160593980065}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2801334588980233450, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4404951363148208126}
   m_SourcePrefab: {fileID: 100100000, guid: b4f6c12808e758842b9b638cef35cc21, type: 3}
+--- !u!1 &446700836253544051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2801334588980233450, guid: b4f6c12808e758842b9b638cef35cc21,
+    type: 3}
+  m_PrefabInstance: {fileID: 2365329870854924953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4404951363148208126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446700836253544051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0de1dce9704d34298de71636a27941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wayfather: {fileID: 0}
+  isFollowing: 1
+  distanceToWaypoint: 10
 --- !u!4 &2939211478794843859 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 583633657894050890, guid: b4f6c12808e758842b9b638cef35cc21,
