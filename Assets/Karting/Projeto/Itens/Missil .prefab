@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -3691432927623674130}
   m_Layer: 0
   m_Name: 'Missil '
-  m_TagString: Untagged
+  m_TagString: CrashMode
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4649182831680686888}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a46ba4e273ba0684f90f4acc0fdf44d5, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -110,7 +110,7 @@ CapsuleCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
-  m_Direction: 0
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &-4855590925076227699
 MonoBehaviour:
