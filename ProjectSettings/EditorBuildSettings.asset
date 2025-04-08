@@ -6,25 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Karting/Projeto/Scenes/IntroMenu.unity
+    path: Assets/Karting/Scenes/IntroMenu.unity
     guid: d29260d8d84c94bd7ac95807b3da99d4
   - enabled: 1
-    path: Assets/Karting/Projeto/Scenes/PistaLuminosa(VelMax).unity
+    path: Assets/Karting/Scenes/MainScene.unity
     guid: 92786e23da2af4a4f8803aaf44c47121
-  - enabled: 1
-    path: Assets/Karting/Projeto/Scenes/PistaNoturna(VelMax).unity
+  - enabled: 0
+    path: Assets/Karting/Projeto/Scenes/Singleplayer/(Kart5)PistaNoturna(VelMax).unity
     guid: a6bc71eaa29420942aed223fe5eadd17
   - enabled: 1
-    path: Assets/Karting/Projeto/Scenes/PistaLuminosa(O.M.J).unity
+    path: Assets/Karting/Projeto/Scenes/Singleplayer/(Kart1)PistaLuminosa(O.M.J).unity
     guid: c6795cb5c72a33c4484168210ca9480f
   - enabled: 1
-    path: Assets/Karting/Projeto/Scenes/PistaNoturna(O.M.J).unity
+    path: Assets/Karting/Projeto/Scenes/Singleplayer/(Kart4)PistaNoturna(O.M.J).unity
     guid: 36d785f55f98a7d4388d41ce87fab924
   - enabled: 1
-    path: Assets/Karting/Projeto/Scenes/LoseScene.unity
+    path: Assets/Karting/Scenes/LoseScene.unity
     guid: 9c449e01147824b419cda406398fb2e7
   - enabled: 1
-    path: Assets/Karting/Projeto/Scenes/WinScene.unity
+    path: Assets/Karting/Scenes/WinScene.unity
     guid: d6801f2e59f75ee4b919cf5da4e48e3b
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
