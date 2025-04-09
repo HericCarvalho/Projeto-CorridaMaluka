@@ -56,12 +56,17 @@ PrefabInstance:
     - target: {fileID: 583633659007153771, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.0330007
+      value: 1.0349996
       objectReference: {fileID: 0}
     - target: {fileID: 583633659007153771, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.57399964
+      objectReference: {fileID: 0}
+    - target: {fileID: 583633659007153771, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9537704
       objectReference: {fileID: 0}
     - target: {fileID: 583633659007153777, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
@@ -106,12 +111,17 @@ PrefabInstance:
     - target: {fileID: 583633659007153781, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.992
+      value: -0.99
       objectReference: {fileID: 0}
     - target: {fileID: 583633659007153781, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.60999966
+      objectReference: {fileID: 0}
+    - target: {fileID: 583633659007153781, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.02
       objectReference: {fileID: 0}
     - target: {fileID: 583633659007153783, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
@@ -140,6 +150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 641358430778617960, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
+      propertyPath: hasIten
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641358430778617960, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 2448974102424750567}
@@ -165,6 +180,24 @@ PrefabInstance:
       propertyPath: 'projectiles.Array.data[2]'
       value: 
       objectReference: {fileID: 2307311757996421954, guid: 9d93b9c5368c9b2408d558cdfbf1571f,
+        type: 3}
+    - target: {fileID: 641358430778617960, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 3337363100896657182, guid: 4f7fd5ebc0fb9e841a020d9ae5fee0cc,
+        type: 3}
+    - target: {fileID: 641358430778617960, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2773627559753000164, guid: 7815c76470f624d4b9194d5dc135bfe4,
+        type: 3}
+    - target: {fileID: 641358430778617960, guid: b4f6c12808e758842b9b638cef35cc21,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[5]'
+      value: 
+      objectReference: {fileID: 1794045456819685168, guid: e68e2eab653f46a45a777550bb2d753d,
         type: 3}
     - target: {fileID: 2801334587225202552, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
@@ -369,7 +402,7 @@ PrefabInstance:
     - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}
       propertyPath: baseStats.TopSpeed
-      value: 45
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 2801334588980233455, guid: b4f6c12808e758842b9b638cef35cc21,
         type: 3}

@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Karting/Projeto/Itens/Capsule.prefab.meta
 guid: bab28fb2378a0a2418622af234114582
 PrefabImporter:
+========
+guid: e46bedf4a91b0364ab2d971b44a0b24d
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> Stashed changes:Assets/Karting/Projeto/Scenes/prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

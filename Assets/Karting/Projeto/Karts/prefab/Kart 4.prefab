@@ -46,6 +46,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2307311757996421954, guid: 9d93b9c5368c9b2408d558cdfbf1571f,
         type: 3}
+    - target: {fileID: 1877085086202013815, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 3337363100896657182, guid: 4f7fd5ebc0fb9e841a020d9ae5fee0cc,
+        type: 3}
+    - target: {fileID: 1877085086202013815, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2773627559753000164, guid: 7815c76470f624d4b9194d5dc135bfe4,
+        type: 3}
+    - target: {fileID: 1877085086202013815, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[5]'
+      value: 
+      objectReference: {fileID: 1794045456819685168, guid: e68e2eab653f46a45a777550bb2d753d,
+        type: 3}
     - target: {fileID: 1941989670373126728, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
       propertyPath: m_IsActive
@@ -254,7 +272,7 @@ PrefabInstance:
     - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}
       propertyPath: baseStats.TopSpeed
-      value: 47
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 3749941718056525040, guid: 7871bdf7fdbd3104b8febe3e9ef1da6f,
         type: 3}

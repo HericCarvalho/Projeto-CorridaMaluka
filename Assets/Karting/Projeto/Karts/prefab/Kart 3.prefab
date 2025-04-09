@@ -66,6 +66,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2307311757996421954, guid: 9d93b9c5368c9b2408d558cdfbf1571f,
         type: 3}
+    - target: {fileID: 1147317635741122334, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 3337363100896657182, guid: 4f7fd5ebc0fb9e841a020d9ae5fee0cc,
+        type: 3}
+    - target: {fileID: 1147317635741122334, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1794045456819685168, guid: e68e2eab653f46a45a777550bb2d753d,
+        type: 3}
+    - target: {fileID: 1147317635741122334, guid: 2bdc032a2a65656469e84a923266d0a4,
+        type: 3}
+      propertyPath: 'projectiles.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2773627559753000164, guid: 7815c76470f624d4b9194d5dc135bfe4,
+        type: 3}
     - target: {fileID: 2443996235805199256, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: m_Enabled
@@ -74,7 +92,7 @@ PrefabInstance:
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: DriftGrip
-      value: 0.379
+      value: 0.457
       objectReference: {fileID: 0}
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
@@ -94,7 +112,7 @@ PrefabInstance:
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: baseStats.Grip
-      value: 0.505
+      value: 0.553
       objectReference: {fileID: 0}
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
@@ -104,7 +122,7 @@ PrefabInstance:
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: SuspensionHeight
-      value: 0.457
+      value: 0.496
       objectReference: {fileID: 0}
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
@@ -119,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: baseStats.TopSpeed
-      value: 60
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
@@ -129,7 +147,7 @@ PrefabInstance:
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: baseStats.Acceleration
-      value: 13
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
@@ -144,7 +162,7 @@ PrefabInstance:
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
       propertyPath: baseStats.AccelerationCurve
-      value: 0.638
+      value: 0.558
       objectReference: {fileID: 0}
     - target: {fileID: 2443996235805199257, guid: 2bdc032a2a65656469e84a923266d0a4,
         type: 3}
